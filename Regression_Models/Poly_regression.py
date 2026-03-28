@@ -1,5 +1,8 @@
 import numpy as np
 import pandas as pd
+from Regression_Models.Linear_regression import Linear
+ 
+'''Linear(X,Y)
 
 def polynomial_regression_grad(X,Y,iterations,alpha):
     theta0=0
@@ -18,8 +21,8 @@ def polynomial_regression_grad(X,Y,iterations,alpha):
         theta1= theta1 - alpha*d_theta1
         theta2 = theta2 - alpha*d_theta2
 
-    return theta0,theta1,theta2
+    return theta0,theta1,theta2'''
 
-
+    
 
 

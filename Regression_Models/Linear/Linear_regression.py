@@ -11,3 +11,7 @@ m,b=graddes(X,Y,iterations,alpha,0,0)
 Y_pred=X*m+b
 print(f"Best line of fit: y={m}x+{b}")
 
+def Linear(X,Y):
+    m,b=graddes(X,Y,0.01,0,0)
+    return m,b
+
